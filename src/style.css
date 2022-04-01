@@ -82,6 +82,31 @@ h2.index-heading {
   padding: var(--button-padding);
 }
 
+.about-me-image {
+  border-radius: 4px;
+}
+
+.about-section {
+  color: #fff;
+  padding: 30px;
+}
+
+.about-me-content {
+  padding-top: 50px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+}
+
+.about-me-icons {
+  font-size: 20px;
+}
+
 .footer-code-link {
   font-size: 16px;
   text-align: center;
@@ -97,6 +122,14 @@ h2.index-heading {
   }
 
   .body-paragraph {
+    text-align: center;
+  }
+
+  .about-section h1 {
+    font-size: 50px;
+  }
+
+  .about-me-icons {
     text-align: center;
   }
 }
