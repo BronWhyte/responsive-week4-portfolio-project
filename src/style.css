@@ -98,6 +98,16 @@ h2.index-heading {
   font-size: 20px;
 }
 
+.coding-framework-logos {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.coding-framework-logos img {
+  max-width: 40px;
+  margin: 20px;
+}
+
 .footer-code-link {
   font-size: 16px;
   text-align: center;
