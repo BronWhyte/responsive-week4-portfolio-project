@@ -52,8 +52,15 @@ h2.index-heading {
   color: var(--primary-color);
 }
 
-.body-wrapper {
+.work-inquiry-container {
   color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 70px 0 20px;
+}
+
+.work-inquiry-container h3 {
+  text-align: start;
 }
 
 .project-images {
