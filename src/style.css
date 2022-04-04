@@ -7,6 +7,12 @@
   --button-padding: 20px 30px;
 }
 
+body {
+  font-family: var(--body-font);
+  background: var(--primary-color);
+  color: #fff;
+}
+
 h1 {
   font-family: var(--heading-font);
   font-size: 96px;
@@ -15,11 +21,6 @@ h1 {
 h3 {
   font-size: 50px;
   text-align: center;
-}
-
-body {
-  font-family: var(--body-font);
-  background: var(--primary-color);
 }
 
 footer {
@@ -103,6 +104,8 @@ h2.index-heading {
 
 .about-me-icons {
   font-size: 20px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .coding-framework-logos {
@@ -118,6 +121,27 @@ h2.index-heading {
 .footer-code-link {
   font-size: 16px;
   text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.branding-h1 {
+  text-align: center;
+  margin: 30px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin: 20px;
 }
 
 @media (max-width: 700px) {
