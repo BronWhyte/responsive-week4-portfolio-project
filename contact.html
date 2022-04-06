@@ -11,16 +11,6 @@
       crossorigin="anonymous"
     />
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <script
       src="https://kit.fontawesome.com/57d89758e4.js"
       crossorigin="anonymous"
     ></script>
@@ -31,31 +21,61 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/src/style.css" />
+    <meta
+      name="description"
+      content="Contact information for Bronwyn Whyte - Front-End Developer based in Ireland."
+    />
     <title>Bronwyn Whyte - Front-End Developer in Ireland</title>
   </head>
   <body>
     <div class="all-but-footer">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-2">
-        <a class="navbar-brand" href="/">BW</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="/"
-              >Home <span class="sr-only">(current)</span></a
-            >
-            <a class="nav-item nav-link" href="/about.html">About</a>
-            <a class="nav-item nav-link" href="/work.html">Work</a>
-            <a class="nav-item nav-link active" href="/contact.html">Contact</a>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">BW</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/"
+                  title="Homepage"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html" title="About Bronwyn"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="/work.html"
+                  title="Bronwyn's work portfolio"
+                  >Work</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="/contact.html"
+                  title="Contact Bronwyn"
+                  >Contact</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -64,15 +84,24 @@
           <h1 class="branding-h1">Let's get in touch!</h1>
           <div class="contact-info py-5">
             <h2>Email</h2>
-            <a href="mailto:bronwyn.whyte24@gmail.com" target="_blank"
+            <a
+              href="mailto:bronwyn.whyte24@gmail.com"
+              target="_blank"
+              title="Email Bronwyn"
               >bronwyn.whyte24@gmail.com</a
             >
             <h2>Facebook</h2>
-            <a href="https://www.facebook.com/blackenedwhyte" target="_blank"
+            <a
+              href="https://www.facebook.com/blackenedwhyte"
+              target="_blank"
+              title="Connect with Bronwyn on Facebook"
               >Bronwyn Whyte</a
             >
             <h2>Instagram</h2>
-            <a href="https://www.instagram.com/blackenedwhyte/" target="_blank"
+            <a
+              href="https://www.instagram.com/blackenedwhyte/"
+              target="_blank"
+              title="Connect with Bronwyn on Instagram"
               >@blackenedwhyte</a
             >
           </div>
@@ -83,13 +112,18 @@
       <div class="row">
         <div class="col-sm-4"></div>
         <div class="col-sm-4">
-          <a href="https://www.facebook.com/blackenedwhyte" target="_blank">
+          <a
+            href="https://www.facebook.com/blackenedwhyte"
+            target="_blank"
+            title="Connect with Bronwyn on Facebook"
+          >
             <i class="fa fa-brands fa-facebook-square px-5"></i>
           </a>
-          <a href="https://www.instagram.com/blackenedwhyte/" target="_blank">
-            <i class="fa fa-brands fa-instagram px-5"></i>
-          </a>
-          <a href="mailto:bronwyn.whyte24@gmail.com" target="_blank">
+          <a
+            href="mailto:bronwyn.whyte24@gmail.com"
+            target="_blank"
+            title="Email Bronwyn"
+          >
             <i class="fa fa-regular fa-envelope px-5"></i>
           </a>
         </div>
@@ -97,11 +131,17 @@
         <div class="col-sm-4 footer-code-link pt-2">
           <a
             href="https://github.com/BronWhyte/responsive-week4-portfolio-project"
+            title="Go to Bronwyn's GitHub repo."
             >Open-source code</a
           >
           by Bronwyn Whyte
         </div>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
